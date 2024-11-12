@@ -4,10 +4,12 @@ body {
   color: black;
   margin: 2rem;
   min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
 }
 
-header, footer {
-  background-color: #dfffdf
+header>div, footer>div {
+  background-color: #dfffdf;
 }
 
 h1 {
@@ -19,4 +21,5 @@ h1 {
   border: 1px solid black;
   border-radius: 0.5rem;
   padding: 1rem;
+  margin; 2rem 0;
 }
