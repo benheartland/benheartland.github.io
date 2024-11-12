@@ -8,9 +8,9 @@ body {
   grid-template-rows: auto 1fr auto;
 }
 
-.header, .footer {
+header, footer {
   background-color: #cfcfff;
-  padding: 2rem;
+  padding-inline: 2em;
 }
 
 h1 {
@@ -20,6 +20,7 @@ h1 {
 .section {
   border: 1px solid black;
   border-radius: 0.5rem;
-  padding: 1rem;
-  margin: 2rem;
+  padding-inline: 1rem;
+  margin-block: 2rem;
+  margin-inline: 2rem;
 }
